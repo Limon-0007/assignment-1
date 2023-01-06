@@ -21,6 +21,7 @@
   display: flex;
   align-items: center;
   cursor: pointer;
+  letter-spacing: 1px;
 }
 .logo span {
   color: rgb(112, 131, 243);
@@ -95,19 +96,19 @@ nav li a:hover {
 }
 
 .banner-btn button {
-    border: 1px solid #005fac;
-    color: #005fac;
-    padding: 14px 15px;
-    border-radius: 5px;
-    font-weight: 600;
-    font-size: 16px;
-    cursor: pointer;
-    transition: 0.6s ease-in-out;
+  border: 1px solid #005fac;
+  color: #005fac;
+  padding: 14px 15px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.6s ease-in-out;
 }
 
 .banner-btn button:hover {
-    background-color: #005fac;
-    color: #ffffff;
+  background-color: #005fac;
+  color: #ffffff;
 }
 
 /* about section starts from here */
@@ -116,6 +117,7 @@ nav li a:hover {
   display: flex;
   align-items: center;
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .about-image img {
@@ -151,4 +153,75 @@ nav li a:hover {
   font-size: 20px;
   color: green;
   font-weight: 600;
+}
+
+/* my plans section starts from here */
+#plans {
+  margin-bottom: 100px;
+}
+.plans-section-title {
+  text-align: center;
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.plans-cards {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.img-title {
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 7px;
+  font-size: 25px;
+  color: #151414;
+}
+
+.img-body {
+  font-weight: 500;
+  font-size: 20px;
+  color: #737272;
+}
+
+/* call now section starts from here */
+
+.call-now {
+  background-image: linear-gradient(to left, #005FAC00, #005FAC), url(../images/watch.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 30px;
+  height: 35vh;
+  margin-bottom: 100px;
+  background-size: cover;
+  border-radius: 6px;
+}
+
+.call-now h1 {
+  font-size: 40px;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
+.call-now button {
+  border: 1px solid #005fac;
+  color: #005fac;
+  padding: 14px 15px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: 0.6s ease-in-out;
+}
+
+.call-now button:hover {
+  background-color: #005fac;
+  color: #ffffff;
 }
