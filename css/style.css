@@ -194,19 +194,19 @@ nav li a:hover {
   background-image: linear-gradient(to left, #005FAC00, #005FAC), url(../images/watch.png);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   max-width: 80%;
   margin: 0 auto;
   padding: 30px;
   height: 35vh;
   margin-bottom: 100px;
-  background-size: cover;
   border-radius: 6px;
 }
 
 .call-now h1 {
   font-size: 40px;
-  color: #FFFFFF;
   font-weight: 700;
+  color: #FFFFFF;
 }
 
 .call-now button {
@@ -224,4 +224,75 @@ nav li a:hover {
 .call-now button:hover {
   background-color: #005fac;
   color: #ffffff;
+}
+
+/* footer section starts from here */
+
+#contact {
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+  justify-content: space-around;
+  background-color: #151414;
+  color: #ffffff;
+}
+
+#contact .future-title {
+color: #F8F8F8;
+font-size: 35px;
+font-weight: 700;
+margin-bottom: 15px;
+}
+
+.future-body {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.mail , .phone {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.icons img {
+  width: 35px;
+  transition: 0.4s ease-in-out;
+}
+
+.icons img:hover {
+  transform: scale(1.15);
+}
+
+/* subscribe */
+
+.subscribe-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.subscribe-form input {
+  padding: 15px 15px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background-color: #151414;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.subscribe-form button {
+  padding: 12px 20px;
+  background-color: #005FAC;
+  color: #FFFFFF;
+  border: 2px solid #005FAC;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: 0.5s ease-in-out;
+}
+
+.subscribe-form button:hover {
+  background-color: #ffffff;
+  color: #005FAC;
 }
