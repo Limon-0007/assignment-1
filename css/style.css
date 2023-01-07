@@ -62,6 +62,42 @@ nav li a:hover {
   font-weight: 600;
 }
 
+/* dropdown */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #005FAC;
+  min-width: 140px;
+  box-shadow: 10px 8px 10px 10px rgba(0,0,0,0.4);
+  transition: all 0.5s;
+  z-index: 1;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.dropdown-content a {
+  color: #ffffff;
+  padding: 12px 14px;
+  text-decoration: none;
+  display: block;
+  transition: all 0.5s ease-in-out;
+  font-size: 15px;
+}
+
+.dropdown-content a:hover {
+  background-color: #328ad3;
+  color: #ffffff;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 /* navbar ends here */
 
 /* banner section starts from here */
