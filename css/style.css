@@ -60,6 +60,22 @@ nav li a:hover {
   width: 140px;
   color: #333;
   font-weight: 600;
+  position: relative;
+}
+
+.search i {
+  cursor: pointer;
+  position: absolute;
+  top: 23px;
+  right: 152px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #005FAC;
+  transition: 0.5s ease-in-out;
+}
+
+.search i:hover {
+  transform: scale(1.15);
 }
 
 /* dropdown */
